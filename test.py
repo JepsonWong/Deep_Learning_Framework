@@ -4,19 +4,21 @@ import sys
 
 def main():
     print 12121
-#print('# of entries', file=sys.stderr)
 
-def main1(a):
-    print a
+def main1():
+    print "hello"
 
 for i in sys.modules.keys():
+    print i
     pass
     #print sys.modules[i]
-print sys.modules['__main__'].main1(21)
+
+sys.modules['__main__'].main1()
+
 print sys.modules['__main__'].main()
 
-print bool(None) == True
-print bool(None) == False
+#print bool(None) == True
+#print bool(None) == False
 
 #sys.exit(1)
 
