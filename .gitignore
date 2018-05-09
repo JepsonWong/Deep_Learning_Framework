@@ -1,4 +1,8 @@
 /Auto_Encoder/MNIST_data
 /Convolution_Network/CIFAR-10/cifar10/cifar10_data
 /models
-/Recurrent_Neural_Network/text8.zip
+/Recurrent_Neural_Network/Word2Vec/text8.zip
+/Recurrent_Neural_Network/LSTM/simple-examples
+/Recurrent_Neural_Network/LSTM/simple-examples.tgz
+/Recurrent_Neural_Network/LSTM/阅读理解机器人/babi_tasks_1-20_v1-2
+/Recurrent_Neural_Network/LSTM/阅读理解机器人/babi_tasks_1-20_v1-2.tar.gz
