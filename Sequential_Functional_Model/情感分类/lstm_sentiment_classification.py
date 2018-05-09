@@ -47,7 +47,7 @@ d2v_train = pd.concat([pn['words'], comment['words']], ignore_index=True)
 w = []
 for i in d2v_train:
 	w.extend(i)
-
+print w
 dict = pd.DataFrame(pd.Series(w).value_counts())
 del w, d2v_train
 dict['id'] = list(range(1,len(dict)+1))
